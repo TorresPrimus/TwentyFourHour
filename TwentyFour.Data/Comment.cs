@@ -20,5 +20,7 @@ namespace TwentyFour.Data
         [ForeignKey(nameof(Post))]
         public string Reply { get; set; }
 
+        public DateTimeOffset CreatedUtc { get; set; }
+
     }
 }
