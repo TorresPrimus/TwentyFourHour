@@ -1,22 +1,16 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TwentyFour.Data
+namespace TwentyFour.Models
 {
-    public class Post
+    public class PostDetail
     {
-        [Key]
         public int ID { get; set; }
-        [Required]
         public string Title { get; set; }
-        [Required]
         public string Text { get; set; }
-
-        [ForeignKey(nameof(Author))]
         public Guid AuthorID { get; set; }
         public virtual User Author { get; set; }
     }
