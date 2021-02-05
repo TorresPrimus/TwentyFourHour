@@ -17,5 +17,6 @@ namespace TwentyFour.Data
         public string Title { get; set; }
         [Required]
         public string context { get; set; }
+        public string yes { get; set; }
     }
 }
