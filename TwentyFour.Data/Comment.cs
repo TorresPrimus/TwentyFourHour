@@ -8,19 +8,17 @@ using System.Threading.Tasks;
 
 namespace TwentyFour.Data
 {
-    class Comment
+   public class Comment
     {
         [Key]
-        public int Id { get; set; }
+        public int CommentID { get; set; }
         [Required]
         public string Text { get; set; }
-        public int MyProperty { get; set; }
-        public Guid Author { get; set; }
-
-        [ForeignKey(nameof(Post))]
-        public string Reply { get; set; }
-
-        public DateTimeOffset CreatedUtc { get; set; }
-
+        [ForeignKey(nameof(Author))]
+        public Guid AuthorID { get; set; }
+        public virtual User Author { get; set; }
+        [ForeignKey(nameof(CommentPost))]
+        public int CommentPostID { get; set; }
+        public virtual Post CommentPost { get; set; }
     }
 }
