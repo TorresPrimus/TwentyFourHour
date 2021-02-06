@@ -15,5 +15,8 @@ namespace TwentyFour.Models
 
         [Display(Name="Replies")]
         public string Reply { get; set; }
+
+        [Display(Name = "Created")]
+        public DateTimeOffset CreatedUtc { get; set; }
     }
 }

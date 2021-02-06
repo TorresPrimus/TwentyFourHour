@@ -17,5 +17,8 @@ namespace TwentyFour.Data
         public Guid Author { get; set; }
 
         public string Reply { get; set; }
+
+        [Display(Name = "Created")]
+        public DateTimeOffset CreatedUtc { get; set; }
     }
 }
