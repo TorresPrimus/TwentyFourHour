@@ -12,11 +12,17 @@ namespace TwentyFour.Data
     {
         [Key]
         public int CommentId { get; set; }
+
         [Required]
         public string Text { get; set; }
-        public Guid Author { get; set; }
 
-        public string Reply { get; set; }
+        [ForeignKey(nameof(Author))]
+        public Guid Author { get; set; }
+        public virtual User AuthorId { get; set; }
+
+        [ForeignKey(nameof(CommentPost))]
+        public string CommentPostId { get; set; }
+        public virtual Post CommentPost { get; set; }
 
         [Display(Name = "Created")]
         public DateTimeOffset CreatedUtc { get; set; }
