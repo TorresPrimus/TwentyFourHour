@@ -65,7 +65,6 @@ namespace TwentyFour.Services
                         CommentId = entity.CommentId,
                         Text = entity.Text,
                         Author = entity.Author,
-                        Reply = entity.Reply,
                         CreatedUtc = entity.CreatedUtc
                     };
             }
