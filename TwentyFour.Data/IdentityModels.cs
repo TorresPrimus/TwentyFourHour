@@ -33,7 +33,7 @@ namespace TwentyFour.Data
             return new ApplicationDbContext();
         }
 
-        public DbSet<Comment> Notes { get; set; } // This needs to be changed, but to what???
+        public DbSet<Comment> Comment { get; set; } // This needs to be changed, but to what???
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             modelBuilder
