@@ -14,3 +14,9 @@ E:\Repos\TwentyFour\TwentyFour.Services\bin\Debug\EntityFramework.SqlServer.xml
 E:\Repos\TwentyFour\TwentyFour.Services\bin\Debug\Microsoft.AspNet.Identity.Core.xml
 E:\Repos\TwentyFour\TwentyFour.Services\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
 E:\Repos\TwentyFour\TwentyFour.Services\obj\Debug\TwentyFour.Services.csproj.CopyComplete
+E:\Repos\TwentyFour\TwentyFour.Services\bin\Debug\TwentyFour.Data.dll
+E:\Repos\TwentyFour\TwentyFour.Services\bin\Debug\TwentyFour.Models.dll
+E:\Repos\TwentyFour\TwentyFour.Services\bin\Debug\TwentyFour.Data.pdb
+E:\Repos\TwentyFour\TwentyFour.Services\bin\Debug\TwentyFour.Data.dll.config
+E:\Repos\TwentyFour\TwentyFour.Services\bin\Debug\TwentyFour.Models.pdb
+E:\Repos\TwentyFour\TwentyFour.Services\bin\Debug\TwentyFour.Models.dll.config
