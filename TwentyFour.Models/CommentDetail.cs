@@ -12,7 +12,7 @@ namespace TwentyFour.Models
         public int CommentId { get; set; }
         public string Text { get; set; }
         public Guid Author { get; set; }
-        public string Reply { get; set; }
+        public string CommentPost { get; set; }
 
         [Display(Name = "Created")]
         public DateTimeOffset CreatedUtc { get; set; }
